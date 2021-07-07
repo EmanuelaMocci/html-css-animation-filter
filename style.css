@@ -126,8 +126,9 @@
     font-size: 60px;
 }
 .ex-11-icon:hover{
-    animation: rotate 3s;
-    animation: rotate-1s 1s;
+    animation-name: rotate, rotate-1s;
+    animation-duration: 3s, 1s;
+    animation-delay: 0ms, 3s;
 }
 @keyframes rotate{
     from{
@@ -135,7 +136,7 @@
     }
     to{
         transform: rotate(270deg);
-    }
+    }  
 }
 @keyframes rotate-1s{
     from{
@@ -147,7 +148,7 @@
 }
 
 
-
+/* Esercizio 12 e 13 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
