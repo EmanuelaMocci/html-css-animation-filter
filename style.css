@@ -75,7 +75,18 @@
     filter: grayscale(100%);
 }
 
+/* Esercizio 8 */
+.ex-8-img{
+    transition: width 3s, border-radius 3s, transform 3s;
+}
 
+.ex-8-img:hover{
+    width: 300px;
+    transform: rotate(360deg);
+    border-radius: 30px;
+}
+
+/* Esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
