@@ -82,11 +82,11 @@
 
 /* Esercizio 8 */
 .ex-8-img{
-    transition: width 3s, border-radius 3s, transform 3s;
+    transition: width 3s, border-radius 3s, transform 3s, filter 3s;
 }
 .ex-8-img:hover{
     width: 300px;
-    transform: rotate(360deg);
+    filter:hue-rotate(90deg);
     border-radius: 30px;
 }
 
