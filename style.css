@@ -147,7 +147,6 @@
     }
 }
 
-
 /* Esercizio 12 e 13 */
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -166,7 +165,7 @@
     position: absolute;
     top: -10px;
     left: 10%;
-    background: #b82222;
+    background: #F5F5F5;
     width: 60px;
     height: 20px;
 }
@@ -174,7 +173,7 @@
     position: absolute;
     bottom: -10px;
     right: 20%;
-    background: blue;
+    background: #F5F5F5;
     width: 60px;
     height: 20px;
 }
@@ -205,19 +204,19 @@
         left: 10%;
     }
    20%  {
-        left: calc(100% - 30px); 
+        left: calc(100% - 22px); 
         top: -10px;
     }
    40%  {
-        left: calc(100% - 30px); 
+        left: calc(100% - 22px); 
         top: calc(100% - 10px);
     }
    60%  {
-        left: -30px; 
+        left: -22px; 
         top: calc(100% - 10px)
     }
    80%  {
-       left: -30px; 
+       left: -22px; 
        top: -10px;
     } 
    100% {left:10%; top:-10px;} 
@@ -232,19 +231,19 @@
         right: 20%;
     }
    20%  {
-        right: calc(100% - 30px); 
+        right: calc(100% - 38px); 
         bottom: -10px;
     }
    40%  {
-        right: calc(100% - 30px); 
+        right: calc(100% - 38px); 
         bottom: calc(100% - 10px);
     }
    60%  {
-        right: -30px; 
+        right: -38px; 
         bottom: calc(100% - 10px)
     }
    80%  {
-        right: -30px; 
+        right: -38px; 
         bottom: -10px;
     } 
    100% {
